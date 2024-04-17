@@ -85,7 +85,8 @@ function Addreview() {
   return (
   <>
    <Header logout={'logout'}/>
-   <h3 className="text-success mt-5">Add New Review</h3>
+   <div className='review'>
+   <h3 className="text-success mt-5 p-5">Add New Review</h3>
   <div className='row'>
         <div className='col-lg-4 col-md-4'>
           <label htmlFor="movie-img" className='btn'>
@@ -130,7 +131,7 @@ function Addreview() {
               />
             </div>
             <div className='mb-3 mt-3 w-100'>
-              <textarea name="" id="" cols="12" rows="20"className='form-control' placeholder='overview'
+              <textarea name="" id="" cols="12" rows="15"className='form-control' placeholder='overview'
                 value={movieDetails.overview}
                 onChange={(e)=>setmovieDetails({...movieDetails,overview:e.target.value})}
               />
@@ -148,7 +149,7 @@ function Addreview() {
       </div>
           </div>
 
-         
+          </div>     
   
   
   
