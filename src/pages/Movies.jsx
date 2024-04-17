@@ -31,7 +31,7 @@ function Movies() {
      <Header logout={'logout'}/>
     <div className='d-flex justify-content-center align-items-center mt-5 flex-column'>
 
-<h3>All reviews</h3>
+<h3 className='mt-5 p-5'>All reviews</h3>
 <div  className={'d-flex mt-5 w-25'}>
 <input type='text' className='form-control' placeholder='search movie reviews' 
  onChange={(e) => setSearchKey(e.target.value)} />
