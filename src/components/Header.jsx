@@ -29,14 +29,13 @@ function Header({logout}) {
   return (
     <>
     
-    <Navbar className="bg-body-tertiary fixed-top"  >
-     
-        <Container >
+    <Navbar className="bg-secondary fixed-top" style={{ height: '60px' }}>
+        <Container  >
         <Link to={'/'} style={{textDecoration:"none"}}>
           <Navbar.Brand href="#home" >
            
 
-              <h5 style={{ fontFamily: 'Roboto, sans-serif',color:"black" }}>Movies Review</h5>
+              <h5 style={{ fontFamily: 'Roboto, sans-serif',color:"black", marginTop:"20px" }}>Movies Review</h5>
   
   
               </Navbar.Brand>
